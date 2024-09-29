@@ -55,7 +55,7 @@ nav .aside button:hover{
 }
 /* side nav bar*/
 .sidenav{
-        background-color:white;
+        background-color:black;
         position: fixed;
         width: 100%;
         height: 160px;
@@ -66,17 +66,21 @@ nav .aside button:hover{
         transition: 1s;
         display:none ;
 }
+
 .sidenav p{
     
-    color: black;
+    color:white;
     row-gap:5;
 margin-left:0px;
     margin-top: 0px;
 }
-
+.sidenav p:hover{
+    background-color: white;
+    color: black;
+}
 .sidenav .mark{
     margin-left: 370px;
-    color: black;
+    color: red;
 }
 
 /* main section 
@@ -165,7 +169,7 @@ color: white;
      border-radius: 20px;
 }
 .containar1 .img p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .btn2{
     justify-content: space-between;
