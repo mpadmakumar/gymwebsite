@@ -1,0 +1,332 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* header section*/
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width:100% ;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+.aside{
+    display: flex;
+    column-gap: 20px;
+}
+.aside p:hover{
+    color: aqua;
+    text-decoration:underline;
+}
+nav h2{
+    margin-left: 60px;
+    font-size:30px;
+}
+nav span{
+    color: red;
+    font-size: 25px;
+    padding-left: 5px;
+}
+nav .aside button{
+
+    border: 2px solid cyan;
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    width:65px;
+    height: 25px;
+    border-radius: 5px;
+}
+nav .aside button:hover{
+    color: black;
+    background-color: aqua;
+}
+.sidebar{
+    display:none;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 5px;
+    width:18px ;
+    height:15px;
+    
+}
+/* side nav bar*/
+.sidenav{
+        background-color:white;
+        position: fixed;
+        width: 100%;
+        height: 160px;
+        margin-top: 30px;
+        border: 2px solid cyan;
+        position: relative;
+        top: -600px;
+        transition: 1s;
+        display:none ;
+}
+.sidenav p{
+    
+    color: black;
+    row-gap:5;
+margin-left:0px;
+    margin-top: 0px;
+}
+
+.sidenav .mark{
+    margin-left: 370px;
+    color: black;
+}
+
+/* main section 
+  Home section*/
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .containar{
+
+    color: white;
+    position: relative;
+    display: flex;
+  }
+  .containar .textarea{
+         position:absolute;
+         top:80px;
+         left: 60px;
+  }
+  .containar .textarea h2,h1,h3,p,button{
+         margin-top: 10px;
+         margin-bottom: 10px;
+  }
+  .textarea h3{
+    color: cyan;
+  }
+  .textarea p{
+    font-size: 15px;
+  }
+  .textarea button{
+      
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid cyan;
+  }
+  .textarea button:hover{
+        background-color: aqua;
+        color: black;
+        border: 2px solid red;
+  }
+  .containar .imagearea{
+    position: absolute;
+    left:580px;
+    top: 20px;
+    
+  }
+  /* service page */
+
+  .containar1{
+color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+ .h1{
+    text-align: center;
+    color: white;
+  }
+   span{
+   color: red;
+}
+.img{
+
+    margin-top: 30px;
+    margin-left: 20px;
+     width: 28%;
+     height: 200px;
+     background-color: transparent;
+     border-radius: 15px;
+     border: 1px solid gray;
+     text-align: center;
+     
+}
+.containar1 img{
+     height:140px ;
+     width: 94%;
+     padding: 10px;
+     border-radius: 20px;
+}
+.containar1 .img p{
+    font-size: 20px;
+}
+.btn2{
+    justify-content: space-between;
+    display:flex;
+    flex-wrap:wrap;
+}
+.btn{
+    justify-items: right;
+    height: 30px;
+    width: 100px;
+    border: 2px solid cyan;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    border:2px solid white;
+
+}
+
+/* About page */
+.span{
+    color: red;
+    text-align:center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.containar3{
+    justify-content: center;
+}
+.image{
+    
+    top: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.containar3 .text{
+    color: white;
+    top:40px;
+    margin-left:20px;
+}
+.containar3 button{
+
+    height:50px ;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#ab{
+    
+    margin-top:60px;
+}
+/*plans page*/
+.plan{
+    color: white;
+    text-align: center;
+}
+.planspage{
+    margin-top: 100px;
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.planspage .basic{
+    height: 300px;
+    width:300px ;
+    border: 2px solid gray;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.basic h1,li,.h2,button{
+    margin-left: 30px;
+}
+.basic h1{
+    color:#40f592;
+}
+.basic button{
+    height: 35px;
+    width: 100px;
+    margin-top:15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+
+}
+.basic button:hover{
+    background-color:white;
+    color: black;
+    border: 2px solid cyan;
+
+}
+#pb{
+       margin-top: 50px;
+}
+/* media screen*/
+@media screen and  (max-width:700px) {
+
+    /*header section */
+
+    nav h2{
+        margin-left: 0px;
+        font-size: 25px;
+        margin-left:3px;
+    }
+    nav span{
+        font-size: 20px;
+    }
+    nav .aside{
+        display:none;
+    }
+    .sidebar{
+        display:block;
+    
+    }
+    .sidenav{
+        display: block;
+        margin-right:15px;
+    }
+     
+     /* main section ,home section*/
+     .containar .textarea{
+
+        left: 10px;
+        top: 10px;
+     }
+    .body {
+        background-image: url(./homeimg.jpg);
+        width: 100%;
+        
+    }
+
+     /*srevicepage*/
+     .containar1{
+        justify-content: space-around;
+     }
+     .img{
+        width: 40%;
+     }
+
+     /* about page*/
+     .containar3 .image{
+        display:block;
+     }
+     #ab{
+        margin-top:20px;
+     }
+.span{
+    display: none;
+}
+
+/*planspage*/
+.basic{
+    margin-bottom: 15px;
+}
+}
