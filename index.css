@@ -116,6 +116,7 @@ margin-left:0px;
     color: white;
     border-radius: 5px;
     border: 2px solid cyan;
+    margin-left: 5px;
   }
   .textarea button:hover{
         background-color: aqua;
@@ -294,7 +295,7 @@ color: white;
         margin-right:15px;
     }
      
-     /* main section ,home section*/
+     /*  ,home section*/
      .containar .textarea{
 
         left: 10px;
@@ -302,8 +303,18 @@ color: white;
      }
     .body {
         background-image: url(./homeimg.jpg);
-        width: 100%;
+        background-size: cover;
+        background-repeat:no-repeat ;
         
+    }
+    .textarea{
+        margin-top:35px;
+    }
+    .textarea button{
+        margin-left:5px;
+    }
+    .imagearea{
+             display: none;
     }
 
      /*srevicepage*/
