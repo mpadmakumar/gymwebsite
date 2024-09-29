@@ -328,6 +328,9 @@ color: white;
      .img{
         width: 40%;
      }
+     .containar1 img{
+        padding:0px;
+     }
 
      /* about page*/
      .containar3 .image{
