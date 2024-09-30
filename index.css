@@ -305,6 +305,9 @@ color: white;
 .clint-img1 p{
     text-align: center;
 }
+#rb{
+    margin-top: 90px;
+}
 
 /* media screen*/
 @media screen and  (max-width:700px) {
