@@ -274,6 +274,38 @@ color: white;
 #pb{
        margin-top: 50px;
 }
+
+/* reivew page*/
+.reviewpage{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.reviewpage i{
+    color: yellow;
+    font-size: larger;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.reviewpage .icon{
+    margin-left: 90px;
+}
+.reviewpage .clint-img1{
+
+    width: 300px;
+    height: 320px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.clint-img1 p{
+    text-align: center;
+}
+
 /* media screen*/
 @media screen and  (max-width:700px) {
 
@@ -346,5 +378,9 @@ color: white;
 /*planspage*/
 .basic{
     margin-bottom: 15px;
+}
+/* review page*/
+.reviewpage .clint-img1{
+    margin-top:20px;
 }
 }
