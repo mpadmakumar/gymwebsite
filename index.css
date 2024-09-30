@@ -13,9 +13,10 @@
     background-color: black;
     border-radius: 2px;
 }
-.aside{
+.aside {
     display: flex;
     column-gap: 20px;
+    margin-top: 10px;
 }
 .aside p:hover{
     color: aqua;
@@ -56,7 +57,7 @@ nav .aside button:hover{
 .sidenav{
         background-color:black;
         position: fixed;
-        width: 100%;
+        width: 99%;
         height: 200px;
         margin-top: 30px;
         border: 2px solid cyan;
@@ -289,7 +290,7 @@ color: white;
     justify-content: space-around;
     
 }
-.reviewpage .i{
+.reviewpage i{
     color: yellow;
     font-size: larger;
     align-items: center;
@@ -466,6 +467,9 @@ marquee{
 .reviewpage .clint-img1{
     margin-top:20px;
     width: 300px;
+}
+.clint-img1 .icon i{
+    margin-left: 0px;
 }
 /* contact us*/
 .contactus .contact-img img{
