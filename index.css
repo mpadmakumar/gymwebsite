@@ -315,7 +315,68 @@ color: white;
 #rb{
     margin-top: 90px;
 }
+/*contact us page */
+.contactus{
+    display: flex;
+}
+.contactus .contact-img {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.contactus .contact-text h1{
+     text-align: center;
+     margin-left: 60px;
+     margin-top: 30px;
+     font-size: 34px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
 
+.contactus .contact-text h4{
+        margin-top:30px ;
+        margin-left:60px ;
+        color:#e62e2e;
+        font-size: 20px;
+}
+.contact-text p{
+    color:white ;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.contact-icons{
+    color: white;
+}
+
+.contact-text .contact-icons i{
+    color:gold ;
+    font-size: 30px;
+    margin-left:60px;
+    margin-top: 30px;
+    padding-right:30px;
+
+}
+.contact-icons #email{
+    color:#f35151;
+}
+.contact-icons #whatsapp{
+    color:#40f592;
+}
+.contact-icons #web{
+    color:aliceblue;
+}
+.contact-icons em u{
+    color: #2525db;
+}
+marquee{
+    color: gold;
+    font-size: 20px;
+
+}
+#cb{
+    margin-top:30px;
+}
+/*-----------------------------------------------------------------------*/
 /* media screen*/
 @media screen and  (max-width:700px) {
 
@@ -403,4 +464,12 @@ color: white;
     margin-top:20px;
     width: 300px;
 }
+/* contact us*/
+.contactus .contact-img img{
+    display: none;
+}
+.contactus .contact-text #ch,h4,p,i{
+    margin-left: 20px;
+}
+
 }
