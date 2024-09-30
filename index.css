@@ -46,7 +46,6 @@ nav .aside button:hover{
 }
 .sidebar{
     display:none;
-    border: 1px solid white;
     padding: 3px;
     border-radius: 5px;
     width:18px ;
@@ -79,7 +78,7 @@ margin-left:0px;
     color: black;
 }
 .sidenav .mark{
-    margin-left: 370px;
+    margin-left: 320px;
     color: red;
 }
 
@@ -101,14 +100,14 @@ margin-left:0px;
          top:80px;
          left: 60px;
   }
-  .containar .textarea h2,h1,h3,.p,button{
+  .containar .textarea h2,h1,h3,p,button{
          margin-top: 10px;
          margin-bottom: 10px;
   }
   .textarea h3{
     color: cyan;
   }
-  .textarea .p{
+  .textarea p{
     font-size: 15px;
   }
   .textarea button{
@@ -290,7 +289,7 @@ color: white;
     justify-content: space-around;
     
 }
-.reviewpage i{
+.reviewpage .i{
     color: yellow;
     font-size: larger;
     align-items: center;
@@ -395,6 +394,7 @@ marquee{
     }
     .sidebar{
         display:block;
+        margin-right: 30px;
     
     }
     .sidenav{
@@ -413,6 +413,9 @@ marquee{
         background-size: cover;
         background-repeat:no-repeat ;
         
+    }
+    .containar .textarea p{
+        margin-left: 0px;
     }
     .textarea{
         margin-top:35px;
