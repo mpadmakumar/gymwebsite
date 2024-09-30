@@ -217,10 +217,17 @@ color: white;
 .containar3 button{
 
     height:50px ;
-    width: 150px;
+    width: 200px;
     background-color: aqua;
     border-radius: 5px;
     border: 2px solid black;
+    margin-left:5px ;
+}
+.containar3 button:hover{
+
+    background-color: black;
+    color: cyan;
+    border: 2px solid gold;
 }
 #ab{
     
@@ -377,7 +384,16 @@ color: white;
 .span{
     display: none;
 }
-
+.containar3 .text .para{
+    display: none;
+}
+.containar3 .image img{
+    width: 400px;
+    margin-left: 10px;
+}
+.containar3 button{
+    margin-left: 100px;
+}
 /*planspage*/
 .basic{
     margin-bottom: 15px;
@@ -385,5 +401,6 @@ color: white;
 /* review page*/
 .reviewpage .clint-img1{
     margin-top:20px;
+    width: 200px;
 }
 }
