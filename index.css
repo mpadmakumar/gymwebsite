@@ -57,7 +57,7 @@ nav .aside button:hover{
 .sidenav{
         background-color:black;
         position: fixed;
-        width: 100%;
+        width: 98%;
         height: 200px;
         margin-top: 30px;
         border: 2px solid cyan;
@@ -79,7 +79,7 @@ margin-left:0px;
     color: black;
 }
 .sidenav .mark{
-    margin-left: 320px;
+    margin-left: 400px;
     color: red;
 }
 
